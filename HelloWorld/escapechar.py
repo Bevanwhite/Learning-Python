@@ -24,3 +24,10 @@ several \
 lines"""
 
 print(anotherSplitStringOne)
+
+# Escaping the backslash
+print("C:\\Users\\tomBeker\\notes.txt")
+# row string
+print(r"C:\Users\tomBeker\notes.txt")
+
+
