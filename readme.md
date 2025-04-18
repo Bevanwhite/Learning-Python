@@ -38,3 +38,40 @@
 | calling a function | Using the **function** name to execute the function's code. <br/> when you **call** a function, you have to provide the **arguments** that the function expects. <br/> if it doesn't expect any arguments, don't put anything between the parentheses.                              |
 | return value       | The value that a **function** returns. <br/> we haven't talked about that yet, but it belongs in this slide, to make the slide complete.                                                                                                                                            |
 | parameters         | Also called **formal parameter**.<br/> This is something else we haven't discussed yet, and we'll learn about **parameters** when we write our own functions.                                                                                                                       |
+
+3. Variables and types
+   - when a program's running everything the program needs ends up stored in the computer's memory.
+   - The program code itself will be stored in one area of memory
+   - the data it works on will also be stored somewhere in memory.
+   - variable is
+     - is basically just way to give a (meaningful) name to an area of memory, 
+     - into which we can place certain value.
+   - few rules for variable names
+     - begins with  a letter or an underscore (_) character
+     - can contain letters, numbers or underscore character
+     - can't start with numbers
+     - variables are case-sensitive greeting and Greeting are two different variables
+     - variables are created first they attach the value using = sign.
+   - python built-in data types
+     - numeric
+     - iterator
+     - sequence(which are also iterators)
+     - mapping 
+     - file
+     - class
+     - exception
+   - numeric Data types
+     - int 
+     - float
+     - complex
+     - python 2 had another type called long, 
+     - because it's int type couldn't store very large values.
+     - in python 3, the int replaces long.
+   
+4. int data type
+   - python integer data type called int
+   - integers are just whole numbers
+   - float is numbers having a fractional par after the decimal point.
+   - int effectively has no maximum size
+   - you'll run out of memory before you exceed the size limit.
+   - 
